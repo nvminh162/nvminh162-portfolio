@@ -4,9 +4,10 @@ interface IProps {
     title: string;
     isComplete: boolean;
   }[];
-  owner: string;
-  age: number;
-  isDeveloper: boolean;
+  owner?: string;
+  age?: number;
+  isDeveloper?: boolean;
+  deleteTodo: (id: number) => void
 }
 
 // type TProps = {
@@ -21,11 +22,15 @@ interface IProps {
 // };
 
 const TodoData = (props: IProps) => {
-  const { todos } = props;
+  const { todos, deleteTodo } = props;
   return (
     <div>
       {todos.map((item) => (
-        <div>{item.title}</div>
+        <div key={item.id}>
+          {item.title}
+          {` `}
+          <button onClick={() => deleteTodo(item.id)}>Delete</button>
+        </div>
       ))}
     </div>
   );

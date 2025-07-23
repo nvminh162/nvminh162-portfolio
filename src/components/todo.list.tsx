@@ -1,4 +1,12 @@
+import { useState } from "react";
 import TodoData from "./todo.data";
+import TodoInput from "./todo.input";
+
+interface ITodo {
+  id: number;
+  title: string;
+  isComplete: boolean;
+}
 
 const TodoList = () => {
   const todos = [
@@ -19,12 +27,33 @@ const TodoList = () => {
     },
   ];
 
+  const [listTodo, setListTodo] = useState<ITodo[]>(todos);
+
+  const addNewTodo = (todo: ITodo) => {
+    setListTodo([...listTodo, todo]);
+  };
+
+  const deleteTodo = (id: number) => {
+    const newList = listTodo.filter((item) => item.id !== id);
+    setListTodo(newList);
+  };
+
   return (
-    <>
+    <div
+      style={{
+        padding: 10,
+        width: 600,
+        margin: "50px auto",
+        border: "1px solid #ccc",
+        borderRadius: 10,
+      }}
+    >
       <div>My todo: </div>
       <br />
-      <TodoData todos={todos} owner={'nvminh162'} age={21} isDeveloper={true}/>
-    </>
+      <br />
+      <TodoInput addNewTodo={addNewTodo} />
+      <TodoData todos={listTodo} deleteTodo={deleteTodo} />
+    </div>
   );
 };
 
