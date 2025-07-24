@@ -1,5 +1,5 @@
-import { SKILLS_DATA } from "../../../helpers/data";
-import { skillsImage } from "../../../helpers/skill.image";
+import { SKILLS_DATA } from "helpers/data";
+import { skillsImage } from "helpers/skill.image";
 import Marquee from "react-fast-marquee";
 import './skill.scss';
 import { Col, Row } from "react-bootstrap";
