@@ -22,10 +22,9 @@ export const AppContextProvider = ({
 
   useEffect(() => {
     const mode = localStorage.getItem("theme") as ThemeContextType;
-    if (mode) {
-      setTheme(mode);
-      document.documentElement.setAttribute("data-bs-theme", mode);
-    }
+    const finalTheme = mode || "dark";
+    setTheme(finalTheme);
+    document.documentElement.setAttribute("data-bs-theme", finalTheme);
   }, []);
 
   return (
