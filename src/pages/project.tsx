@@ -1,16 +1,16 @@
 import { Container } from "react-bootstrap";
-import About from "../components/sections/about";
+import Project from "components/sections/project";
 
-const AboutPage = () => {
+const ProjectPage = () => {
     return (
-        <div className="about-screen">
+        <div className="project-screen">
             <section className="mt-md-5 mt-2 pt-md-5 pt-0">
                 <Container>
-                    <About />
+                    <Project />
                 </Container>
             </section>
         </div>
     )
 }
 
-export default AboutPage;
+export default ProjectPage;
