@@ -14,6 +14,17 @@ interface IProps {
 const HeroLeft = (props: IProps) => {
   const { t } = useTranslation();
 
+  const openInNewTab = (url: string): void => {
+    const newWindow = window.open(url, "_blank", "noopener,noreferrer");
+    if (newWindow) newWindow.opener = null;
+  };
+
+  const handleDownloadCV = () => {
+    openInNewTab(
+      "https://drive.google.com/file/d/1tIsvx6mOZJIN8qciK4KSOoHL8Rhfdh7Z/view"
+    );
+  };
+
   return (
     <div className="hero-left">
       <h3>
@@ -62,6 +73,7 @@ const HeroLeft = (props: IProps) => {
         <ResizeButton
           btnText={t("heroSection.cv")}
           btnIcons={<MdFileDownload />}
+          onClick={handleDownloadCV}
         />
       </div>
     </div>
