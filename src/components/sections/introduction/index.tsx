@@ -1,7 +1,5 @@
 import { Col, Row } from 'react-bootstrap';
 import Tilt from "react-parallax-tilt";
-import avatarImg from "assets/avatar.svg";
-import nvminh162 from "assets/nvminh162.jpg";
 import './introduction.scss';
 import { useTranslation } from 'react-i18next';
 
@@ -58,7 +56,7 @@ const Introduction = () => {
                 </Col>
                 <Col md={3} className='d-md-block d-none'>
                     <Tilt>
-                        <img src={nvminh162} className="img-fluid" alt="avatar" style={{ borderRadius: '50%' }} />
+                        <img src="https://avatars.githubusercontent.com/u/121565657?v=4" className="img-fluid" alt="avatar" style={{ borderRadius: '50%' }} />
                     </Tilt>
                 </Col>
             </Row>
