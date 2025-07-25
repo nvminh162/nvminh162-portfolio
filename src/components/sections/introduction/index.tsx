@@ -1,6 +1,7 @@
 import { Col, Row } from 'react-bootstrap';
 import Tilt from "react-parallax-tilt";
 import avatarImg from "assets/avatar.svg";
+import nvminh162 from "assets/nvminh162.jpg";
 import './introduction.scss';
 import { useTranslation } from 'react-i18next';
 
@@ -23,37 +24,41 @@ const Introduction = () => {
                     </h2>
                     <br />
                     <p>
+                        {/* Paragraph 1 */}
                         {t("introSection.heading1")}
                         <br />
-                        <br />{t("introSection.heading2")}
-                        <i>
-                            <b className='text-pink-100'> Java {t("introSection.and")} Javascript. </b>
-                        </i>
+                        <br />
+                        {/* Paragraph 2 */}
+                        {t("introSection.heading2")}<i><b className='text-pink-100'> Java Spring Boot, Node.js, NestJS, React {t("introSection.and")} Next.js.</b></i>
                         <br />
                         <br />
-                        {t("introSection.heading3")} &nbsp;
-                        <i>
-                            <b className='text-pink-100'>
-                                {t("introSection.heading4")}
-                            </b>
-                        </i>
+                        {/* Paragraph 3 */}
+                        {t("introSection.heading3")}
                         <br />
                         <br />
+                        {/* Paragraph 4 */}
+                        {t("introSection.heading4")}
+                        <br />
+                        <br />
+                        {/* Paragraph 5 */}
                         {t("introSection.heading5")}
-                        <i><b className='text-pink-100'>&nbsp;Java Spring</b> </i>
-                        {t("introSection.and")}
-                        <i>
-                            <b className='text-pink-100'>
-                                {" "}
-                                Node.js
-                            </b>
-                        </i>
-
+                        <br />
+                        <br />
+                        {/* Paragraph 6 */}
+                        {t("introSection.heading6")}
+                        <br />
+                        <hr />
+                        {/* Paragraph 7 */}
+                        <i><b className='text-pink-100'>{t("introSection.heading7")}</b></i>
+                        <br />
+                        {/* Paragraph 8 */}
+                        <i><b className='text-pink-100'>{t("introSection.heading8")}</b></i>
+                        <br />
                     </p>
                 </Col>
                 <Col md={3} className='d-md-block d-none'>
                     <Tilt>
-                        <img src={avatarImg} className="img-fluid" alt="avatar" />
+                        <img src={nvminh162} className="img-fluid" alt="avatar" style={{ borderRadius: '50%' }} />
                     </Tilt>
                 </Col>
             </Row>

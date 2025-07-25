@@ -1,28 +1,31 @@
 {
-    "appHeader": {
-        "brand": "Hỏi Dân IT",
-        "home": "Trang chủ",
-        "project": "Dự án",
-        "contact": "Liên hệ",
-        "about": "Về tác giả"
-    },
-    "heroSection": {
-        "exp": "Kinh nghiệm",
-        "cv": "Tải Resume"
-    },
-    "introSection": {
-        "about": "Giới thiệu",
-        "and": "và",
-        "heading1": "Yêu đơn phương lập trình và tôi tin rằng mình đã học hỏi được ít nhiều điều gì đó. 🤷‍♂️",
-        "heading2": "Tôi nắm vững các ngôn ngữ huyền thoại như là",
-        "heading3": "Lĩnh vực quan tâm của tôi là",
-        "heading4": "xây dựng các công nghệ web mới và các sản phẩm liên quan",
-        "heading5": "Bất cứ khi nào có thể, tôi cũng áp dụng niềm đam mê phát triển sản phẩm của mình với"
-    },
-    "experience": {
-        "title": "Kinh nghiệm làm việc"
-    },
-    "skill": {
-        "title": "Kỹ năng"
-    }
+  "appHeader": {
+    "brand": "NVMINH162",
+    "home": "Trang chủ",
+    "project": "Dự án",
+    "contact": "Liên hệ",
+    "about": "Về tác giả"
+  },
+  "heroSection": {
+    "exp": "Kinh nghiệm",
+    "cv": "Tải Resume"
+  },
+  "introSection": {
+    "about": "Giới thiệu",
+    "and": "và",
+    "heading1": "Lập trình viên sáng lập mơ mộng… 🤷‍♂️",
+    "heading2": "Tôi xây dựng ứng dụng fullstack với",
+    "heading3": "Tôi thích tạo ra các hệ thống nhanh, mở rộng tốt, với mã sạch và chút hỗn loạn.",
+    "heading4": "Yêu công nghệ đám mây, backend logic và thỉnh thoảng là vài nét tinh chỉnh frontend.",
+    "heading5": "Luôn khám phá công nghệ mới, tối ưu những cái cũ.",
+    "heading6": "Triển khai dự án còn nhanh hơn ly cà phê của tôi nguội.",
+    "heading7": "Hiện đang đuổi theo bug, ước mơ và cảm giác phấn khích khi test case pass.",
+    "heading8": "Thỉnh thoảng tôi tweet, thỉnh thoảng deploy lúc 2 giờ sáng."
+  },
+  "experience": {
+    "title": "Kinh nghiệm làm việc"
+  },
+  "skill": {
+    "title": "Kỹ năng"
+  }
 }

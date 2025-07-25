@@ -21,7 +21,7 @@ const HeroRight = () => {
                     <div>
                         <span className="ms-4 me-2">name:</span>
                         <span className='text-yellow-500'>
-                            {`'`}Hỏi Dân IT{`',`}
+                            {`'`}Nguyen Van Minh{`',`}
                         </span>
                     </div>
                     <div className="ms-4 me-2 text-pink-200">

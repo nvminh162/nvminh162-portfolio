@@ -1,28 +1,32 @@
 {
-    "appHeader": {
-        "brand": "Hoi Dan IT",
-        "home": "Home",
-        "project": "Project",
-        "contact": "Contact",
-        "about": "About"
-    },
-    "heroSection": {
-        "exp": "My Skill",
-        "cv": "Get Resume"
-    },
-    "introSection": {
-        "about": "About me",
-        "and": "and",
-        "heading1": "I fell in love with programming and I have at least learnt something, I think… 🤷‍♂️",
-        "heading2": "I am fluent in classics like",
-        "heading3": "My field of Interest's are building new",
-        "heading4": "Web Technologies and Products",
-        "heading5": "Whenever possible, I also apply my passion for developing products with"
-    },
-    "experience": {
-        "title": "Experiences"
-    },
-    "skill": {
-        "title": "Skills"
-    }
+  "appHeader": {
+    "brand": "NVMINH162",
+    "home": "Home",
+    "project": "Project",
+    "contact": "Contact",
+    "about": "About"
+  },
+  "heroSection": {
+    "exp": "Experiences",
+    "cv": "Get Resume"
+  },
+  "introSection": {
+    "about": "About me",
+    "and": "and",
+    "heading1": "Delusional developer-founder… 🤷‍♂️",
+    "heading2": "I build fullstack apps using",
+    "heading3": "I enjoy crafting fast, scalable systems with clean code and a bit of chaos.",
+    "heading4": "Lover of cloud tech, backend logic, and the occasional frontend polish.",
+    "heading5": "Exploring new stacks, optimizing old ones.",
+    "heading6": "Shipping projects faster than my coffee gets cold.",
+
+    "heading7": "Currently chasing bugs, dreams, and dopamine hits from passing test cases.",
+    "heading8": "Sometimes I tweet, sometimes I deploy at 2am."
+  },
+  "experience": {
+    "title": "Experiences"
+  },
+  "skill": {
+    "title": "Skills"
+  }
 }
